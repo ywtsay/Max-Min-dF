@@ -7,8 +7,15 @@ python3 E0_Max_Min_dF_ddfF_deconv.py -all -i example.tif
 ## Argument
 | Argu | Description | Default |
 |-------|-----|------|
-| -i   | to assign input file name or path | code path|
-| -all | to output all images | off |
-| -ns  | to turn off median filter smoothing  | on |
-| -out | generate a max(F)-min(F) image in PNG format  | off |
-
+| -i       | to assign input file name or path | code path|
+| -all     | to output all images | off |
+| -ns      | to turn off median filter smoothing  | on |
+| -out     | generate a max(F)-min(F) image in PNG format  | off |
+| -wdff    | generate a max(F)-min(F) image in PNG format  | off |
+| -wddfdf  | generate a differnece max-min image in PNG format  | off |
+| --top    | set the maximum percentile as the maximum  | 100 |
+| -fmax    | the maximum display value for max_min(F)   | off |
+| -fmin    | the minimum display value for max_min(F)   | off |
+| -dfmax   | the maximum display value for max_min(dF)  | off |
+| -dfmin   | the minimum display value for max_min(dF)  | off |
+| -noblank | to turn off the blank checking procedur    | off |
