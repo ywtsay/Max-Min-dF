@@ -5,5 +5,5 @@ A program for detecting calcium imaging by max-min intensity methods in Python. 
 python3 E0_Max_Min_dF_ddfF_deconv.py -all -i example.tif
 ```
 ## Argument
-* -i:  to assign input file name or path
+* -i:    to assign input file name or path
 * 
