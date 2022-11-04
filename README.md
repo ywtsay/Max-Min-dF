@@ -4,7 +4,7 @@ A program for detecting calcium imaging by max-min intensity methods in Python. 
 ![plot](./example.png)
 ## Usage
 ```Python
-python3 E0_Max_Min_dF_ddfF_deconv.py -all -i example.tif
+python3 Max_Min_F_dF.py -all -i example.tif
 ```
 ## Argument
 | Argu | Description | Default |
